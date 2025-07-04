@@ -1,0 +1,27 @@
+[
+    {
+      "rank": 1,
+      "title": "Smart Talking Robot",
+      "price": "$32.99",
+      "image": "https://m.media-amazon.com/images/I/61Uxh4YssyL._AC_SL1500_.jpg",
+      "link": "#",
+      "description": "Interactive robot with voice and motion detection."
+    },
+    {
+      "rank": 2,
+      "title": "STEM Building Set",
+      "price": "$29.50",
+      "image": "https://m.media-amazon.com/images/I/81W2Eq+2F7L._AC_SL1500_.jpg",
+      "link": "#",
+      "description": "Educational toy that boosts engineering skills."
+    },
+    {
+      "rank": 3,
+      "title": "Remote Control Car",
+      "price": "$19.99",
+      "image": "https://m.media-amazon.com/images/I/81F1xPhAq7L._AC_SL1500_.jpg",
+      "link": "#",
+      "description": "Fast, fun, and perfect for kids 5+."
+    }
+  ]
+  
