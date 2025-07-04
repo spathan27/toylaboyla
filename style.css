@@ -132,3 +132,34 @@ footer {
   border-radius: 8px;
   cursor: pointer;
 }
+.blog-grid {
+  padding: 2rem;
+  display: grid;
+  gap: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.blog-card {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.blog-card h3 {
+  font-family: 'Fredoka', cursive;
+  margin-bottom: 0.2rem;
+}
+
+.blog-card a {
+  text-decoration: none;
+  color: #ff6f61;
+}
+
+.blog-date {
+  font-size: 0.85rem;
+  color: gray;
+  margin-bottom: 0.5rem;
+}
