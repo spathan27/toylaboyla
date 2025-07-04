@@ -102,3 +102,33 @@ footer {
   color: white;
   font-size: 0.9rem;
 }
+
+.newsletter {
+  text-align: center;
+  background: #fffbe6;
+  padding: 2rem;
+}
+
+.newsletter h2 {
+  font-family: 'Fredoka', cursive;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.newsletter input[type="email"] {
+  padding: 0.6rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 250px;
+  max-width: 80%;
+  margin-right: 1rem;
+}
+
+.newsletter button {
+  padding: 0.6rem 1rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
