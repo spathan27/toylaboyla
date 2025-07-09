@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     const container = document.querySelector(".blog-grid");
   
-    fetch("posts/blog.json")
+    fetch("blog.json")
       .then(res => res.json())
       .then(posts => {
         posts.forEach(post => {
