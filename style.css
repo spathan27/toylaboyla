@@ -165,11 +165,13 @@ footer {
 }
 
 .blog-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
   gap: 1.5rem;
   padding: 2rem;
+  justify-content: center;
 }
+
 
 .blog-card {
   background: white;
@@ -188,3 +190,24 @@ footer {
   color: #ff6f61;
   text-decoration: none;
 }
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212;
+    color: #f0f0f0;
+  }
+
+  header, footer {
+    background-color: #1e1e1e;
+    color: #ff8f76;
+  }
+
+  a {
+    color: #80d4ff;
+  }
+
+  .blog-card {
+    background: #222;
+    border-color: #444;
+  }
+}
+
