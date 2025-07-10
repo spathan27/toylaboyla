@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
         card.className = "blog-card";
         card.innerHTML = `
           <h3><a href="${post.link}">${post.title}</a></h3>
-          <p class="blog-date">${post.date}</p>
+          <p class="blog-date">${new Date(post.date).toISOString().split("T")[0]}</p>
           <p>${post.excerpt}</p>
         `;
         container.appendChild(card);
